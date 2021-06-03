@@ -51,7 +51,7 @@ if(candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()){
   else{
     console.log(`>>> Status: PASSED <<<`);
   }
-
+ return grade;
 }
 
 function runProgram() {
